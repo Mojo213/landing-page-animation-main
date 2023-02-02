@@ -69,21 +69,27 @@ nav ul{
 }
 /* Footer + pokeball*/
 .copyright {
+  display: flex;
+  justify-content: center;
   font-size: 30px;
   font-family: 'Pokemon Solid', sans-serif;
   color: rgb(255, 255, 255);
   position: fixed;
   bottom: 1em;
+  width: 1000px;
   }
-.copyright > img {
+.copyright >  img {
     transform: translateY(0, 0);
     animation: moveball 3s infinite;
+    
   }
   @keyframes moveball {
      0% {transform: translateX(0) ;}
      50% {transform: translateX(50px) ;}
      100% {transform: translateX(0) ;}
   }
+
+  
 
 
 
