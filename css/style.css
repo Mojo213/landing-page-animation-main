@@ -33,7 +33,7 @@ nav{
 
 nav :hover > li:hover {
 
-  transform: scale(1.1);l
+  transform: scale(1.1);
   z-index: 1;
 
 }
